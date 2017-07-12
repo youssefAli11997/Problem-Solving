@@ -2,7 +2,6 @@ class Solution {
 public:
     string convert(int num){
         string s = "";
-        cout<<num<<endl;
         while(num){
             s = (char)((num%2) + '0') + s;
             num /= 2;
