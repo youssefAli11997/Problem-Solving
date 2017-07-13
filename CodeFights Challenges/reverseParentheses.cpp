@@ -8,13 +8,12 @@ string reverseParentheses(string s) {
     stack<char> cont;
     string ans = "";
     string tmp = "";
-    bool open = false;
 
     for(int i=0; i<s.size(); i++){
-        if(s[i]=='('){
-            open = true;
+        if(s[i]=='(')
             cont.push(s[i]);
-        }else if(s[i]==')'){
+
+        else if(s[i]==')'){
             while(cont.top() != '('){
                 tmp += cont.top();
                 cont.pop();
@@ -26,6 +25,7 @@ string reverseParentheses(string s) {
                 cont.push(tmp[j]);
             tmp = "";
         }
+
         else cont.push(s[i]);
     }
 
