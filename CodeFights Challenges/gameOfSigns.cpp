@@ -39,6 +39,6 @@ int main(){
     string arr[] = {"S-R",
                     "F-R"};
     vector<string> v(arr, arr+2);
-    cout<<gameOfSigns(v,"R"); // output : 1 (true)
+    cout<<gameOfSigns(v,"R"); // outputs : 1 (true)
     return 0;
 }
