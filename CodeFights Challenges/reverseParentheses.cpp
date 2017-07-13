@@ -1,6 +1,6 @@
 // challenge link : https://codefights.com/challenge/uMQAhyc2uv8RfzbyH/
-// Solution by : youssef_ali
-// CodeFights Profile : https://codefights.com/profile/youssef_ali
+// solution by : youssef_ali
+// codeFights profile : https://codefights.com/profile/youssef_ali
 #include <bits/stdc++.h>
 using namespace std;
 
