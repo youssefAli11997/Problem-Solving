@@ -1,3 +1,6 @@
+// problem link : https://codefights.com/arcade/intro/level-4/xYXfzQmnhBvEKJwXP/
+// solution by : youssef_ali
+// codefights profile : https://codefights.com/profile/youssef_ali
 
 bool areSimilar(vector<int> a, vector<int> b) {
     int freqA[1002] = {0};
@@ -8,7 +11,6 @@ bool areSimilar(vector<int> a, vector<int> b) {
         freqB[b[i]]++;
         diff += (a[i] != b[i]);
     }
-    cout<<diff;
     if(diff <= 2) for(int i=0; i<1002; i++) {
         if(freqA[i] != freqB[i])
             return false;
