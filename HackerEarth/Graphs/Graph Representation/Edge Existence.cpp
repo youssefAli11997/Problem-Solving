@@ -1,6 +1,6 @@
 /*
  - A test-your-understanding problem
- - tutorial link : https://www.hackerearth.com/practice/algorithms/graphs/graph-representation/practice-problems/algorithm/monk-in-the-real-estate/
+ - tutorial link : https://www.hackerearth.com/practice/algorithms/graphs/graph-representation/tutorial/
  - solution by : Youssef Ali
  - hackerEarth profile : https://www.hackerearth.com/@youssef6
 */
