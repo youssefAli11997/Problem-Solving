@@ -1,4 +1,4 @@
-// problem link : https://codefights.com/challenge/J9tdW6Fo7FiHmsqk4/
+// challenge link : https://codefights.com/challenge/J9tdW6Fo7FiHmsqk4/
 // solution by : youssef_ali
 // codefights profile : https://codefights.com/profile/youssef_ali
 vector<vector<int>> nextGameOfLife(vector<vector<int>> seed) {
