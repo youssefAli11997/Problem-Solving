@@ -1,3 +1,5 @@
+# problem link : https://www.hackerrank.com/challenges/fibonacci-modified
+
 def solve(num):
     if(num <= 2):
         return t[num]
