@@ -1,3 +1,5 @@
+// problem link : http://abc067.contest.atcoder.jp/tasks/abc067_a
+
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
