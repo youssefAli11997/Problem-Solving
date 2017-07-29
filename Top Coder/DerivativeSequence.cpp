@@ -13,7 +13,7 @@ class DerivativeSequence{
 			b[i] = a[i+1] - a[i];
 		return recur(b, n-1, k-1);
 	}
-
+	// starter method
 	vector<int> derSeq(vector<int> a, int n){
 		int k = a.size();
 		return recur(a, n, k);
