@@ -3,7 +3,6 @@
 // uri profile : https://www.urionlinejudge.com.br/judge/en/profile/122421
 
 #include <bits/stdc++.h>
-#define ll long long
 using namespace std;
 
 int n,po, mx = 10000000, dp[2005][1005];
