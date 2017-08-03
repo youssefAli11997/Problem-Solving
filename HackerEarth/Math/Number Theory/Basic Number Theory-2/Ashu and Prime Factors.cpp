@@ -25,7 +25,7 @@ int main(){
     int t; scanf("%d",&t);
     while(t--){
         int x, cnt = 0; scanf("%d",&x);
-        printf("%d\n",p[x]+1); // +1 because he didn't count himself as a minimum prime for himself!
+        printf("%d\n",p[x]+1); // +1 because it didn't count itself as a minimum prime for itself!
     }
     return 0;
 }
