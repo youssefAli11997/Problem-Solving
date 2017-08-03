@@ -1,3 +1,10 @@
+/*
+ - a test-your-inderstanding problem
+ - tutorial link : https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/
+ - solution by : Youssef Ali
+ - hackerEarth profile : https://www.hackerearth.com/@youssef6
+*/
+
 #include <iostream>
 using namespace std;
 const int MAX = 100005;
