@@ -1,3 +1,10 @@
+/*
+ - problem link : https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-2/practice-problems/algorithm/ashu-and-prime-factors-4/
+ - solution by : Youssef Ali
+ - hackerEarth profile : https://www.hackerearth.com/@youssef6
+*/
+
+
 #include <cstdio>
 using namespace std;
 
