@@ -1,5 +1,5 @@
 // problem link : https://www.interviewbit.com/problems/add-one-to-number/
-
+// Gategory : Arrays
 vector<int> Solution::plusOne(vector<int> &A) {
     reverse(A.begin(), A.end());
     if(A[0] < 9){
