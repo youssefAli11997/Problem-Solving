@@ -1,3 +1,5 @@
+// problem link : https://www.hackerrank.com/challenges/recursive-digit-sum/
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
