@@ -1,3 +1,5 @@
+// problem link : https://www.hackerrank.com/challenges/maximizing-xor/
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
