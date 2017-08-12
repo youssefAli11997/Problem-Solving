@@ -1,3 +1,4 @@
+// link : https://abc070.contest.atcoder.jp/tasks/abc070_c
 #include <bits/stdc++.h>
 using namespace std;
 
