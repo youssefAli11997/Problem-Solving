@@ -1,4 +1,5 @@
 // link : https://abc070.contest.atcoder.jp/tasks/abc070_c
+// solved inside contest
 #include <bits/stdc++.h>
 using namespace std;
 
