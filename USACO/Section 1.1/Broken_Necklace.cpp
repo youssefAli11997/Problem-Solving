@@ -3,7 +3,6 @@ ID: youssef24
 PROG: beads
 LANG: C++
 */
-
 #include <iostream>
 #include <fstream>
 #include <string>
