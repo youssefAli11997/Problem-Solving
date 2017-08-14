@@ -38,10 +38,7 @@ int main()
 
     while(fscanf(fin,"%s",name)!=EOF){
         int money,num;
-        //scanf("%s",name);
         fscanf(fin,"%d %d",&money,&num);
-//        if(!money && !num)
-//            break;
         if(!num)
             continue;
         have[FindMe(name,group,np)] -= money;
