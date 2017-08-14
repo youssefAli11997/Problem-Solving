@@ -3,7 +3,6 @@ ID: youssef24
 LANG: C
 TASK: ride
 */
-
 #include <stdio.h>
 #include <string.h>
 
