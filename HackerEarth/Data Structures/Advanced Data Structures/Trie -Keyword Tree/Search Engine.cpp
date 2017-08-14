@@ -1,5 +1,4 @@
-// A test-your-understanding problem
-// tutorial link : https://www.hackerearth.com/practice/data-structures/advanced-data-structures/trie-keyword-tree/tutorial/
+// problem link : https://www.hackerearth.com/practice/data-structures/advanced-data-structures/trie-keyword-tree/practice-problems/algorithm/search-engine/
 #include <iostream>
 using namespace std;
 
