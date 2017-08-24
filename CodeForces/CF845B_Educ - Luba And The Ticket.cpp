@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool islucky(string x){
+bool isLucky(string x){
     return (x[0]+x[1]+x[2] == x[3]+x[4]+x[5]);
 }
 
@@ -30,10 +30,17 @@ int main(){
                         for(char f = '0'; f <= '9'; f++){
                             gen = str(a,b,c,d,e,f);
                             diff = digDiff(s, gen);
-                            if(islucky(gen) && diff < mn){
+                            if(isLucky(gen) && diff < mn){
                                 mn = diff;
                             }
                         }
     cout<<mn<<endl;
+    //NOTE : the above 6 for-loops could be just one loop like this :
+    // for(int i = 1000000; i < 2000000; i++)
+    //and generated ticket will be :
+    // gen = to_string(i).substr(1,6);
+    //this is a shorter code
+    //but takes more time to get the output : 265 ms
+    //while the 6 for-loops code takes less time : 93 ms
     return 0;
 }
