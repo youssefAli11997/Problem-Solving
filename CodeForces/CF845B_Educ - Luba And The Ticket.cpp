@@ -35,7 +35,8 @@ int main(){
                             }
                         }
     cout<<mn<<endl;
-    //NOTE : the above 6 for-loops could be just one loop like this :
+    //NOTE :
+    //the above 6 for-loops could be just one loop like this :
     // for(int i = 1000000; i < 2000000; i++)
     //and generated ticket will be :
     // gen = to_string(i).substr(1,6);
