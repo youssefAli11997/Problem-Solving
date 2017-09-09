@@ -27,7 +27,7 @@ int main(){
         g[b-1][a-1] = c;
     }
 
-    for (int k = 0; k < n; k++) // common error: remember that loop order is k->i->j
+    for (int k = 0; k < n; k++)
         for (int i = 0; i < n; i++)
           for (int j = 0; j < n; j++)
             g[i][j] = min(g[i][j], g[i][k] + g[k][j]);
@@ -40,7 +40,6 @@ int main(){
     do{
         unsigned long long dist = 0;
         for(int i=0; i<r-1; i++){
-            //cout<<g[rs[i]-1][rs[i+1]-1]<<" "<<rs[i]<<" "<<rs[i+1]<<endl;
             dist += g[rs[i]-1][rs[i+1]-1];
         }
         ans = min(ans, dist);
