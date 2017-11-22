@@ -1,3 +1,4 @@
+// problem link : http://practice.geeksforgeeks.org/problems/sort-a-stack/1/
 class GfG{
 	public Stack<Integer> sort(Stack<Integer> s)
 	{
