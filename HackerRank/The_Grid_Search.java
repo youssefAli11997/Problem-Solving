@@ -5,7 +5,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class The_Grid_Search {
     
     public static boolean foundPattern(String[] P, String[] G, int xOffset, int yOffset){
         for(int i=0; i < P.length; i++){
