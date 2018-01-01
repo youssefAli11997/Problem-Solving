@@ -5,20 +5,14 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Sequence Equation {
+public class Sequence_Equation {
 
     static int[] permutationEquation(int[] p) {
         // Complete this function
         int[] res = new int[p.length];
         int index = 0;
-        for(int x=1; x<=p.length; x++){
-            for(int i=0; i<p.length; i++){
-                if(p[p[i] - 1] == x){
-                    res[index] = i + 1;
-                    index++;
-                    break;
-                }
-            }
+        for(int i=0; i<p.length; i++){
+            res[p[p[i] - 1] - 1] = i + 1;
         }
         return res;
     }
