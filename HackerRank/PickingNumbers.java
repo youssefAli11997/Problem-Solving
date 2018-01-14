@@ -19,6 +19,21 @@ public class PickingNumbers {
             }
         }
         return max;
+        // another solution
+        /*
+        int[] freq = new int[101];
+        int max = 0;
+        for(int i=0; i<a.length; i++){
+            freq[a[i]]++;
+        }
+        for(int i=1; i<=100; i++){
+            int val = freq[i] + freq[i-1];
+            if(val > max){
+                max = val;
+            }
+        }
+        return max;
+        */
     }
 
     public static void main(String[] args) {
