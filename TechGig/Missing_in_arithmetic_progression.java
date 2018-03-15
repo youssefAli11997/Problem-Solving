@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class CandidateCode {
+public class Missing_in_arithmetic_progression {
    public static void main(String args[] ) throws Exception {
 
 	    Scanner in = new Scanner(System.in);
