@@ -13,20 +13,18 @@ class ASCII_Art {
         }
         String T = in.nextLine();
         
-        char[][][] letters = new char[27][H][L];
+        String[][] letters = new String[27][H];
         for (int i = 0; i < H; i++) {
             String ROW = in.nextLine();
             int k=0;
             for(int j=0; j<27 && k <ROW.length(); j++){
-                for(int m=0; m<L; m++){
-                    letters[j][i][m] = ROW.charAt(k);
-                    k++;    
-                } 
+                letters[j][i] = ROW.substring(k, k+L);
+                k += L;
             }
         }
 
     
-        char[][][] answer = new char[T.length()][H][L];
+        String[][] answer = new String[T.length()][H];
         for(int i=0; i<T.length(); i++){
             char c = Character.toLowerCase(T.charAt(i));
             if(c >= 'a' && c <= 'z'){
@@ -39,9 +37,7 @@ class ASCII_Art {
         
         for(int i=0; i<H; i++){
             for(int j=0; j<answer.length; j++){
-                for(int k=0; k<L; k++){
-                    System.out.print(answer[j][i][k]);
-                }
+                System.out.print(answer[j][i]);
             }
             System.out.println();
         }
