@@ -1,4 +1,3 @@
-//link: https://codefights.com/arcade/intro/level-9/xHvruDnQCx7mYom3T/
 int[] bankRequests(int[] accounts, String[] requests) {
     int req = 0;
 	for(String request : requests){
