@@ -1,6 +1,6 @@
 int[] bankRequests(int[] accounts, String[] requests) {
     int req = 0;
-	for(String request : requests){
+    for(String request : requests){
         req++;
         String[] parsed = request.split(" ");
         String cmd = parsed[0];
