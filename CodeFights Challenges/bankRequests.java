@@ -17,7 +17,6 @@ int[] bankRequests(int[] accounts, String[] requests) {
         if(("deposit").equals(cmd)){
             int i = Integer.parseInt(parsed[1]); i--;
             int sum = Integer.parseInt(parsed[2]);
-            
             if(i < 0 || i >= accounts.length){
                 return new int[]{-req};
             }
