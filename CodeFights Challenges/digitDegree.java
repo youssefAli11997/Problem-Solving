@@ -1,4 +1,3 @@
-//link: https://codefights.com/arcade/intro/level-9/r9azLYp2BDZPyzaG2/
 int deg = -1;
 int digitDegree(int n) {
     deg++;
