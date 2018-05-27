@@ -1,4 +1,3 @@
-//link: https://codefights.com/arcade/intro/level-9/r9azLYp2BDZPyzaG2/
 int knapsackLight(int value1, int weight1, int value2, int weight2, int maxW)
 {
     int value = 0;
