@@ -25,10 +25,6 @@ int main(){
             me += x + d * (n/2);
         }
     }
-    if(n == 2){
-        printf("%f\n", (fe + le) / 2.0);
-        return 0;
-    }
     double sum = (n/2 + 1) / 2.0 * (fe + me) + (n%2 == 0? n/2 : (n/2 + 1)) / 2.0 * (me + le) - me;
     printf("%f\n", 1.0 * sum / n);
     return 0;
