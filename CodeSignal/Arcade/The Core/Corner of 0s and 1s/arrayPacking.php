@@ -1,3 +1,4 @@
+<?php
 //link: https://app.codesignal.com/arcade/code-arcade/corner-of-0s-and-1s/KeMqde6oqfF5wBXxf
 
 function arrayPacking($a) {
@@ -6,3 +7,5 @@ function arrayPacking($a) {
         $m += $a[$i] << (8 * $i);
     return $m;
 }
+
+?>
