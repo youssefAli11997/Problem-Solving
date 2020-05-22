@@ -1,3 +1,7 @@
+// problem link: https://atcoder.jp/contests/dp/tasks/dp_a
+// iterative solution (tabulation)
+// resursive version (memoization) is below (commented)
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -14,8 +18,7 @@ int main() {
 	dp[1] = abs(h[1]-h[0]);
 
 	for(int i=2; i<n; i++) {
-		dp[i] = min(abs(h[i]-h[i-1]) + dp[i-1], 
-					abs(h[i]-h[i-2]) + dp[i-2]);
+		dp[i] = min(abs(h[i]-h[i-1]) + dp[i-1], abs(h[i]-h[i-2]) + dp[i-2]);
 	}
 
 	printf("%d\n", dp[n-1]);
