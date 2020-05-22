@@ -1,6 +1,6 @@
 // problem link: https://atcoder.jp/contests/dp/tasks/dp_a
 // iterative solution (tabulation)
-// resursive version (memoization) is below (commented)
+// recursive version (memoization) is below (commented)
 
 #include <bits/stdc++.h>
 
